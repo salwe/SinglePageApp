@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Page Application</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="py-4">Single Page Application</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mainNav bg-faded">
+        <div class="container">
+            <div class="row">
+                <nav class="nav">
+                    <a href="/" class="nav-link active">Home</a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="/contacts" class="nav-link">Contacts</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="pageContent" class="my-4"></div>
+    </div>
+
+    <script src="js/PageBuilder.js"></script>
+    <script src="js/pages/PageTemplate.js"></script>
+    <script src="js/pages/Home.js"></script>
+    <script src="js/pages/About.js"></script>
+    <script src="js/pages/Contacts.js"></script>
+    <script src="js/App.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
